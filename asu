@@ -152,7 +152,7 @@ apt -y install sslh
   
 ​#​ Settings SSLH
 
-​cat ​>​ "/etc/default/sslh" ​<<​-EOF12
+​cat ​>​ "/etc/default/sslh" ​<<EOF
 ​# Default options for sslh initscript 
 ​# sourced by /etc/init.d/sslh 
   
@@ -163,7 +163,7 @@ apt -y install sslh
 ​# - sslh(8) via "man sslh" for more configuration details. 
 # Once configuration ready, you *must* set RUN to yes here 
 # and try to start sslh (standalone mode only) 
-EOF12
+EOF
 
 RUN=yes 
 
